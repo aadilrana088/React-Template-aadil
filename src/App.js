@@ -8,6 +8,11 @@ import CardSection from './Component/CardSection';
 import About from './Component/About';
 import Progressbar from './Component/Progressbar';
 import Service from './Component/Services';
+import Testimonial from './Component/Testimonial';
+import Portfolio from './Component/Portfolio';
+import Team from './Component/Team';
+import Pricing from './Component/Pricing';
+import Faq from './Component/Faq';
 
 function App() {
   return (
@@ -19,6 +24,11 @@ function App() {
       <About />
       <Progressbar />
       <Service />
+      <Testimonial />
+      <Portfolio />
+      <Team />
+      <Pricing />
+      <Faq />
     </div>
   );
 }

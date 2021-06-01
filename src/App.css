@@ -379,3 +379,270 @@ margin-bottom: 20px
   margin-bottom: 20px;
   text-align: center;
 }
+
+.testimonial-div::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.testimonial-div {
+  padding: 80px 0;
+  background: url("./Component/images/testimonials-bg.jpg") no-repeat;
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-size: auto;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.test-slider {
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+.testimonial-div .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.testimonial-div .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.testimonial-div .testimonial-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.testimonial-div .testimonial-item .quote-icon-left, .testimonial-div .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+
+.testimonial-div .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonial-div .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonial-div .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+.testimonial-div .testimonial-item p svg {margin: 0 10px;}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {display: none!important;}
+@media (min-width: 992px) {
+  .testimonial-div .testimonial-item p {
+    width: 80%;
+  }
+}
+.portfolio-div {
+  margin: 60px 0;
+}
+.portfolio-tab img {margin-bottom: 15px;}
+.portfolio-tab .nav-tabs {justify-content: center;}
+
+.team-div {padding: 60px 0;background-color: #f6f9fe;}
+.team-div .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
+}
+
+.team-div .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-div .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.team-div .member .social a {
+  transition: color 0.3s;
+  color: #222222;
+  margin: 0 3px;
+  padding-top: 7px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: rgba(16, 110, 234, 0.8);
+  display: inline-block;
+  transition: ease-in-out 0.3s;
+  color: #fff;
+}
+
+.team-div .member .social a:hover {
+  background: #3b8af2;
+}
+
+.team-div .member .social i {
+  font-size: 18px;
+}
+
+.team-div .member .member-info {
+  padding: 25px 15px;
+}
+
+.team-div .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #222222;
+}
+
+.team-div .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.team-div .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.team-div .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+.pricing-div {margin: 60px 0;}
+.pricing-div .box {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-div .box h3 {
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  background: #f8f8f8;
+}
+
+.pricing-div .box h4 {
+  font-size: 36px;
+  color: #106eea;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing-div .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing-div .box h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing-div .box ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing-div .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing-div .box ul i {
+  color: #106eea;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing-div .box ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing-div .btn-wrap {
+  margin: 20px -20px -20px -20px;
+  padding: 20px 15px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.pricing-div .btn-buy {
+  background: #106eea;
+  display: inline-block;
+  padding: 8px 35px 10px 35px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing-div .btn-buy:hover {
+  background: #3b8af2;
+}
+
+.pricing-div .featured h3 {
+  color: #fff;
+  background: #106eea;
+}
+
+.pricing-div .advanced {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #106eea;
+  color: #fff;
+}
+
+.faq {padding: 60px 0;background-color: #f6f9fe;}
