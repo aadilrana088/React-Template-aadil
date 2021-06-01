@@ -9,7 +9,7 @@ import {
 function Team() {
   return (
     <div className="team-div">
-      <div class="section-title">
+      <div className="section-title">
         <h2>Team</h2>
         <h3>
           Our Hardworking <span>Team</span>
@@ -22,100 +22,100 @@ function Team() {
       <Container>
         <Row>
           <Col lg={3} md={6}>
-            <div class="member">
-              <div class="member-img">
-                <img src="images/team-1.jpg" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href="#" class="twitter">
+            <div className="member">
+              <div className="member-img">
+                <img src="images/team-1.jpg" className="img-fluid" alt="" />
+                <div className="social">
+                  <a href="#!" className="twitter">
                     <FaTwitter />
                   </a>
-                  <a href="#" class="facebook">
+                  <a href="#!" className="facebook">
                     <FaFacebookF />
                   </a>
-                  <a href="#" class="instagram">
+                  <a href="#!" className="instagram">
                     <FaInstagram />
                   </a>
-                  <a href="#" class="linkedin">
+                  <a href="#!" className="linkedin">
                     <FaLinkedinIn />
                   </a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Walter White</h4>
                 <span>Chief Executive Officer</span>
               </div>
             </div>
           </Col>
           <Col lg={3} md={6}>
-            <div class="member">
-              <div class="member-img">
-                <img src="images/team-2.jpg" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href="#" class="twitter">
+            <div className="member">
+              <div className="member-img">
+                <img src="images/team-2.jpg" className="img-fluid" alt="" />
+                <div className="social">
+                  <a href="#!" className="twitter">
                     <FaTwitter />
                   </a>
-                  <a href="#" class="facebook">
+                  <a href="#!" className="facebook">
                     <FaFacebookF />
                   </a>
-                  <a href="#" class="instagram">
+                  <a href="#!" className="instagram">
                     <FaInstagram />
                   </a>
-                  <a href="#" class="linkedin">
+                  <a href="#!" className="linkedin">
                     <FaLinkedinIn />
                   </a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Sarah Jhonson</h4>
                 <span>Product Manager</span>
               </div>
             </div>
           </Col>
           <Col lg={3} md={6}>
-            <div class="member">
-              <div class="member-img">
-                <img src="images/team-3.jpg" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href="#" class="twitter">
+            <div className="member">
+              <div className="member-img">
+                <img src="images/team-3.jpg" className="img-fluid" alt="" />
+                <div className="social">
+                  <a href="#!" className="twitter">
                     <FaTwitter />
                   </a>
-                  <a href="#" class="facebook">
+                  <a href="#!" className="facebook">
                     <FaFacebookF />
                   </a>
-                  <a href="#" class="instagram">
+                  <a href="#!" className="instagram">
                     <FaInstagram />
                   </a>
-                  <a href="#" class="linkedin">
+                  <a href="#!" className="linkedin">
                     <FaLinkedinIn />
                   </a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>William Anderson</h4>
                 <span>CTO</span>
               </div>
             </div>
           </Col>
           <Col lg={3} md={6}>
-            <div class="member">
-              <div class="member-img">
-                <img src="images/team-4.jpg" class="img-fluid" alt="" />
-                <div class="social">
-                  <a href="#" class="twitter">
+            <div className="member">
+              <div className="member-img">
+                <img src="images/team-4.jpg" className="img-fluid" alt="" />
+                <div className="social">
+                  <a href="#!" className="twitter">
                     <FaTwitter />
                   </a>
-                  <a href="#" class="facebook">
+                  <a href="#!" className="facebook">
                     <FaFacebookF />
                   </a>
-                  <a href="#" class="instagram">
+                  <a href="#!" className="instagram">
                     <FaInstagram />
                   </a>
-                  <a href="#" class="linkedin">
+                  <a href="#!" className="linkedin">
                     <FaLinkedinIn />
                   </a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Amanda Jepson</h4>
                 <span>Accountant</span>
               </div>

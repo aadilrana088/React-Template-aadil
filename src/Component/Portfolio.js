@@ -3,7 +3,7 @@ import { Tabs, Tab, Container, Col, Row } from "react-bootstrap";
 function Portfolio() {
   return (
     <div className="portfolio-div">
-      <div class="section-title">
+      <div className="section-title">
         <h2>Portfolio</h2>
         <h3>
           Check our <span>Portfolio</span>

@@ -13,6 +13,8 @@ import Portfolio from './Component/Portfolio';
 import Team from './Component/Team';
 import Pricing from './Component/Pricing';
 import Faq from './Component/Faq';
+import Contactus from './Component/Contactus';
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       <Team />
       <Pricing />
       <Faq />
+      <Contactus />
+      <Footer />
     </div>
   );
 }

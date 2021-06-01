@@ -20,8 +20,8 @@ function Testimonial() {
                 <Swiper effect={'flip'} grabCursor={true} pagination={true} navigation={true} className="mySwiper">
 
                     <SwiperSlide>
-                    <div class="testimonial-item">
-                <img src="images/testimonials-3.jpg" class="testimonial-img" alt="" />
+                    <div className="testimonial-item">
+                <img src="images/testimonials-3.jpg" className="testimonial-img" alt="" />
                 <h3>Jena Karlis</h3>
                 <h4>Store Owner</h4>
                 <p>
@@ -33,8 +33,8 @@ function Testimonial() {
 
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div class="testimonial-item">
-                <img src="images/testimonials-4.jpg" class="testimonial-img" alt="" />
+                    <div className="testimonial-item">
+                <img src="images/testimonials-4.jpg" className="testimonial-img" alt="" />
                 <h3>Matt Brandon</h3>
                 <h4>Freelancer</h4>
                 <p>
@@ -45,8 +45,8 @@ function Testimonial() {
               </div>    
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div class="testimonial-item">
-                <img src="images/testimonials-5.jpg" class="testimonial-img" alt="" />
+                    <div className="testimonial-item">
+                <img src="images/testimonials-5.jpg" className="testimonial-img" alt="" />
                 <h3>John Larson</h3>
                 <h4>Entrepreneur</h4>
                 <p>

@@ -4,7 +4,7 @@ import {AiFillBank,AiFillAudio,AiFillCamera} from 'react-icons/ai'
 function Service() {
     return(
         <div className="service-div">
-            <div class="section-title">
+            <div className="section-title">
                 <h2>Services</h2>
                 <h3>Check our <span>Services</span></h3>
                 <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
